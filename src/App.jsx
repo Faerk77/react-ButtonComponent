@@ -5,10 +5,10 @@ import "./index.css";
 function App() {
   return (
     <div className="container">
-      <Button />
-      <Button title="<Button />" />
-      <Button title="<Button variant='outline'" variant="outline" />
-      <Button title="<Button variant='text'" variant="text" />
+      <Button disabled />
+      <Button title="<Button />" size={"sm"} />
+      <Button title="<Button variant='outline'" variant="outline" size={"md"} />
+      <Button title="<Button variant='text'" variant="text" size={"lg"} />
     </div>
   );
 }
