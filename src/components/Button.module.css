@@ -1,43 +1,39 @@
-.BtnContainer{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+.default {
+  margin: auto;
+  font-size: 1rem;
+  box-shadow: 0px 1px 2px rgb(210, 210, 210);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
 }
 
-.default{
-    margin: auto;
-    font-size: 1rem;
-    box-shadow: 0px 1px 0.5px rgb(210, 210, 210);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-}
-.lg{
-    padding: 0.8rem 1.3rem;
-}
-.md{
-    padding: 0.5rem 1rem;
-}
-.sm{
-    padding: 0.3rem 0.7rem;
-    
-}
-.default:hover{
-    border: none;
-    background-color: rgb(174, 173, 173);
-}   
-.default:focus{
-    background-color: rgb(174, 173, 173);
-    border: none;
-    outline: none;
+.default:hover {
+  border: none;
+  background-color: rgb(174, 173, 173);
 }
 
-.outline{
-    border: 1px solid blue;
-    color: blue;
+.default:focus {
+  background-color: rgb(174, 173, 173);
+  border: none;
+  outline: none;
 }
 
-.text{
-    box-shadow: initial;
-    color: blue;
+.outline {
+  border: 1px solid blue;
+  color: blue;
+}
+
+.text {
+  box-shadow: initial;
+  color: blue;
+}
+
+.lg {
+  padding: 0.8rem 1.3rem;
+}
+.md {
+  padding: 0.5rem 1rem;
+}
+.sm {
+  padding: 0.3rem 0.7rem;
 }

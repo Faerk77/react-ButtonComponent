@@ -1,14 +1,26 @@
-import "./App.css";
-import Button from "./components/Button";
-import "./index.css";
+import './App.css';
+import Button from './components/Button';
+import './index.css';
 
 function App() {
   return (
     <div className="container">
-      <Button disabled />
-      <Button title="<Button />" size={"sm"} />
-      <Button title="<Button variant='outline'" variant="outline" size={"md"} />
-      <Button title="<Button variant='text'" variant="text" size={"lg"} />
+      <h1>Buttons</h1>
+      <div className="btnContainer">
+          <Button />
+      </div>
+      <div className="btnContainer">
+          <Button variant="outline" />
+      </div>
+      <div className="btnContainer">
+          <Button variant="text" />
+      </div>
+      <div className="btnContainer">
+          <Button  />
+      </div>
+      <div className="btnContainer">
+          <Button />
+      </div>
     </div>
   );
 }
