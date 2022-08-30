@@ -1,7 +1,6 @@
-
-.default{
+.default {
   font-family: 'Noto Sans JP', sans-serif;
-  color:#3F3F3F;
+  color: #3f3f3f;
   margin: auto;
   font-size: 1rem;
   box-shadow: 0px 1px 5px rgb(210, 210, 210);
@@ -34,7 +33,7 @@
   background-color: rgb(203, 203, 255);
 }
 
-.text{
+.text {
   background-color: transparent;
   box-shadow: initial;
   color: blue;
@@ -59,24 +58,35 @@
 .lg {
   padding: 0.8rem 1.3rem;
 }
-.primary, .secundary,.danger{
+.primary,
+.secundary,
+.danger {
   color: white;
 }
-.primary{
-  background-color:#2962FF;
+.primary {
+  background-color: #2962ff;
 }
-.primary:hover,.primary:focus{
-  background-color:#0039CB;
+.primary:hover,
+.primary:focus {
+  background-color: #0039cb;
 }
-.secundary{
-  background-color:#455A64;
+.secundary {
+  background-color: #455a64;
 }
-.secundary:hover,.secundary:focus{
-  background-color:#1C313A;
+.secundary:hover,
+.secundary:focus {
+  background-color: #1c313a;
 }
-.danger{
-  background-color: #D32F2F;
+.danger {
+  background-color: #d32f2f;
 }
-.danger:hover,.danger:focus{
-  background-color: #9A0007;
+.danger:hover,
+.danger:focus {
+  background-color: #9a0007;
+}
+
+.disabled {
+  box-shadow: unset;
+  background-color: #e0e0e0;
+  color: #9e9e9e;
 }

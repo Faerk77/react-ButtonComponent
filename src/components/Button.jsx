@@ -17,7 +17,7 @@ const Button = ({
       {...props}
       className={`${style['default']} ${style[variant]} ${
         style[color || 'default']
-      } ${style[size || 'md']} ${disabledShadow && style['disabledShadow']}`}
+      } ${style[size || 'md']} ${props.disabled && style['disabled']}`}
     >
       {EndIcon && (
         <span>
