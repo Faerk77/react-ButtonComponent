@@ -1,6 +1,7 @@
-import "./App.css";
-import Button from "./components/Button";
-import "./index.css";
+import './App.css';
+import Button from './components/Button';
+import BtnIcon from './components/BtnIcon';
+import './index.css';
 
 function App() {
   return (
@@ -13,8 +14,7 @@ function App() {
         <Button disableShadow />
         <Button disabled />
         <Button variant="text" disabled />
-        <Button starIcon="local_grocery_icon" />
-        <Button endIcon="local_grocery_icon" />
+        <Button endIcon={BtnIcon} />
         <Button text="Primary" color="primary" />
         <Button text="Secundary" color="secundary" />
         <Button text="Danger" color="danger" />
