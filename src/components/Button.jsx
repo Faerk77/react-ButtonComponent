@@ -1,12 +1,14 @@
-import style from './Button.module.css';
+import style from "./Button.module.css";
 
-const Button = ({ variant, size, text = 'Default', color, ...props }) => {
+const Button = ({ text, variant, color, size, ...props }) => {
   return (
     <button
       {...props}
-      className={`${style['default']} ${style[variant]} ${style[size]} ${style[color]}`}
+      className={`${style["default"]} ${style[variant]} ${
+        style[color || "default"]
+      } ${style[size || "md"]}`}
     >
-      {text}
+      {text || "Default"}
     </button>
   );
 };

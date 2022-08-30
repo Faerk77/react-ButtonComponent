@@ -1,15 +1,17 @@
-.default {
+
+.default{
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#3F3F3F;
   margin: auto;
   font-size: 1rem;
-  box-shadow: 0px 1px 2px rgb(210, 210, 210);
+  box-shadow: 0px 1px 5px rgb(210, 210, 210);
   border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 
 .default:hover {
   border: none;
-  background-color: rgb(174, 173, 173);
+  background-color: rgb(152, 150, 150);
 }
 
 .default:focus {
@@ -19,6 +21,7 @@
 }
 
 .outline {
+  color: blue;
   border: 1px solid blue;
   color: blue;
 }
@@ -32,7 +35,7 @@
   background-color: rgb(203, 203, 255);
 }
 
-.text {
+.text{
   background-color: transparent;
   box-shadow: initial;
   color: blue;
@@ -46,12 +49,35 @@
   background-color: rgb(203, 203, 255);
 }
 
-.lg {
-  padding: 0.8rem 1.3rem;
+.sm {
+  padding: 0.3rem 0.7rem;
 }
+
 .md {
   padding: 0.5rem 1rem;
 }
-.sm {
-  padding: 0.3rem 0.7rem;
+
+.lg {
+  padding: 0.8rem 1.3rem;
+}
+.primary, .secundary,.danger{
+  color: white;
+}
+.primary{
+  background-color:#2962FF;
+}
+.primary:hover,.primary:focus{
+  background-color:#0039CB;
+}
+.secundary{
+  background-color:#455A64;
+}
+.secundary:hover,.secundary:focus{
+  background-color:#1C313A;
+}
+.danger{
+  background-color: #D32F2F;
+}
+.danger:hover,.danger:focus{
+  background-color: #9A0007;
 }

@@ -1,12 +1,14 @@
 .container {
+  width: 40%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   gap: 2rem;
+  margin: auto;
 }
 
 .btnContainer {
+  margin: auto;
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
