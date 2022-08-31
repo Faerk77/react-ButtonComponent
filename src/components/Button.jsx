@@ -15,16 +15,18 @@ const Button = ({
     <button
       type={type || 'button'}
       {...props}
-      className={`${style['default']} ${style[variant]} ${
-        style[color || 'default']
-      } ${style[size || 'md']} ${props.disabled && style['disabled']}`}
+      className={`${style['default']} ${variant ? style[variant] : ''} ${
+        color ? style[color] : ''
+      } ${size ? style[size] : ''} ${
+        disabledShadow ? style['disabledShadow'] : ''
+      }`}
     >
       {EndIcon && (
         <span>
           <EndIcon width="1rem" />
         </span>
       )}
-      {text && <span>{text}</span>}
+      {text ? <span>{text}</span> : ''}
       {StartIcon && (
         <span>
           <StartIcon width="1rem" />
