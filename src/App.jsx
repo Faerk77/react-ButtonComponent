@@ -37,11 +37,39 @@ function App() {
         <div className="btnGroup">
           <ButtonWrapper
             text={'<Button startIcon="local_grocery_store" />'}
-            btn={<Button text="startIcon" startIcon={BtnIcon} />}
+            btn={<Button text="startIcon" color='primary' startIcon={BtnIcon} />}
           />
           <ButtonWrapper
             text={'<Button endIcon="local_grocery_store" />'}
-            btn={<Button text="endIcon" endIcon={BtnIcon} />}
+            btn={<Button text="endIcon" color='primary' endIcon={BtnIcon} />}
+          />
+        </div>
+        <div className='btnGroup'>
+        <ButtonWrapper
+            text={'<Button size="sm" />'}
+            btn={<Button text="Small" color='primary' size='sm' />}
+          />
+          <ButtonWrapper
+            text={'<Button size="md" />'}
+            btn={<Button text="Medium" color='primary' size='md' />}
+          />
+          <ButtonWrapper
+            text={'<Button size="lg" />'}
+            btn={<Button text="Large" color='primary' size='lg' />}
+          />
+        </div>
+        <div className='btnGroup'>
+        <ButtonWrapper
+            text={'<Button color="primary" />'}
+            btn={<Button text="Primary" color='primary'/>}
+          />
+          <ButtonWrapper
+            text={'<Button color="secondary" />'}
+            btn={<Button text="Secondary" color='secondary'/>}
+          />
+          <ButtonWrapper
+            text={'<Button color="danger" />'}
+            btn={<Button text="Danger" color='danger'/>}
           />
         </div>
       </div>

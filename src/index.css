@@ -1,18 +1,21 @@
-body{
+body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
 .container {
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   margin: auto;
 }
-
+.btnGroup {
+  display: flex;
+  gap: 2rem;
+}
 .btnsContainer {
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
 }
+

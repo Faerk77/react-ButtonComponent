@@ -23,13 +23,13 @@ const Button = ({
     >
       {EndIcon && (
         <span>
-          <EndIcon width="1rem" />
+          <EndIcon width="1.5rem" />
         </span>
       )}
       {text ? <span>{text}</span> : ''}
       {StartIcon && (
         <span>
-          <StartIcon width="1rem" />
+          <StartIcon width="1.5rem" />
         </span>
       )}
     </button>
